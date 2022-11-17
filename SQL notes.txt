@@ -1,0 +1,53 @@
+Constraints
+1 Not null:When we apply not null constraints to any of the column that column will not accept null values.
+It can accept dublicate values.
+
+2 Unique:when we apply 
+
+3 Check: It is used to limit the range of the value to the particular column.
+
+4 Primary key:when we apply primary key to multiple columns that combination should not be same.
+ *primary key uniquely identifies each row in a table.
+ *By default primary key will have not null unique constraints.
+ *Each table key have only one primary key.
+ *We can apply primary key to more than one column.(Multiple columns) that is nothing but an composite primary key.
+
+
+not null ,unique, and check constraints are the column level  constraints.
+
+FK:is a column in one table which primary key of the other table.
+  primary key will always present in the prerant key.
+  Foreign key will always prerant in the prerant key.
+  primary key values and foreign key
+  PK and FK constraints are the table level constraints.
+  
+  table1-id primary key-101,102,103,104
+  
+  GROUP BY:
+  Having:filter the data
+  SET OPRATORS:set operators are used to combined the data from two table
+  1 Union-combined the result set of two or more select querries.
+  2 Union all-
+  
+  JOINS:
+  Joins will combined the more then one column values from one or more table. 
+  1 Inner join:Return the similar values from both the tables.
+  2 Left joins:
+  3 cross joins:cross joins given the cartition product for both the tables.
+  select a.id,b.id from a,b;_Syntax
+  
+  Subqureries:select * from tablename where condition(select * from another_table where condition)
+  always inner queries excuted first.
+  if want more than one row use In operators.
+  like:this will match any lenght of any string.
+  like condition is used for pattern matching.
+  order by is used to solt the data either in ascending order or descending order.
+  
+  padding is nothing but adding some values to the exsting values.
+  
+  
+  
+  
+  
+
+
